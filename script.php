@@ -2,5 +2,5 @@
 
 require('bootstrap.php');
 
-$emailService = new EmailService(true);
+$emailService = new EmailManager(true);
 $emailService->send();

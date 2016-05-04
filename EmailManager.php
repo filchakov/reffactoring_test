@@ -1,6 +1,6 @@
 <?php
 
-class EmailService
+class EmailManager
 {
 
     const DAY_COMEBACK_EMAIL = 'Mon';
@@ -27,7 +27,7 @@ class EmailService
 
 
     /**
-     * EmailService constructor.
+     * EmailManager constructor.
      * @param bool $debud
      */
     public function __construct($debud = true)

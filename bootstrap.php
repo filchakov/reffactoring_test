@@ -9,6 +9,6 @@ require('Email/ComebackEmail.php');
 require('Email/WelcomeEmail.php');
 
 require('EmailSenderService.php');
-require('EmailService.php');
+require('EmailManager.php');
 
 require('Log/ConsoleMessage.php');
